@@ -13,5 +13,5 @@ jobs:
     - name: Send Push Notification
       uses: techulus/push-github-action@1.0.0
       env:
-        API_KEY: ${{ a6ff21d5-9fff-43ed-85f8-185426ef9712 }}
+        API_KEY: ${{ secrets.API_KEY }}
         MESSAGE: "There is a new PR!"
